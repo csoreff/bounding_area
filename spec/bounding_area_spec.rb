@@ -1,4 +1,5 @@
 require_relative '../lib/bounding_area'
+require_relative '../lib/bounding_box'
 
 RSpec.describe BoundingArea do
   describe '#contains_point?' do
